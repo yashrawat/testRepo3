@@ -34,4 +34,4 @@ app.use((req, res, next) => {
 });
 
 //routes
-app.use('/api/expense', expenseRoutes);
+app.use('/api', expenseRoutes);
